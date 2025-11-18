@@ -28,19 +28,19 @@ Rusty Browser relies on modern system libraries. You need **GTK4** and **WebKitG
 **Arch Linux / Manjaro / Aurora:**
 ```bash
 sudo pacman -S base-devel gtk4 libadwaita webkitgtk-6.0 gst-plugins-bad gst-plugins-ugly gst-libav
-
+```
 Debian / Ubuntu (22.04+):
-Bash
+```Bash
 
 sudo apt install build-essential libgtk-4-dev libadwaita-1-dev libwebkitgtk-6.0-dev libgstreamer1.0-dev
-
+```
 Build from Source
 
-    Clone the repository:
-    Bash
+Clone the repository:
+```Bash
 
 git clone [https://github.com/Wyind/rusty_browser.git](https://github.com/Wyind/rusty_browser.git)
-cd rusty_browser
+cd rusty_browser```
 
 Build in release mode:
 Bash
@@ -51,26 +51,26 @@ Run:
 Bash
 
     ./target/release/rusty_browser
-
-🛠️ Configuration
+```
+Configuration
 
 The browser creates a configuration folder at ~/.config/rusty_browser/settings.json. You can use the Settings (⚙️) menu inside the app to toggle features like Hardware Acceleration, AdBlock, and Amnesia Mode.
 
-⚖️ License
+License
 
 Distributed under the Apache License 2.0. See LICENSE for more information.
 
-🤝 Contributing
+Contributing
 
 Contributions are welcome!
 
-    Fork the Project
+Fork the Project
 
-    Create your Feature Branch (git checkout -b feature/AmazingFeature)
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
 
-    Commit your Changes (git commit -m 'Add some AmazingFeature')
+Commit your Changes (git commit -m 'Add some AmazingFeature')
 
-    Push to the Branch (git push origin feature/AmazingFeature)
+Push to the Branch (git push origin feature/AmazingFeature)
 
     Open a Pull Request
 
