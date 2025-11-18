@@ -37,22 +37,21 @@ sudo apt install build-essential libgtk-4-dev libadwaita-1-dev libwebkitgtk-6.0-
 Build from Source
 
 Clone the repository:
-```Bash
 
-git clone [https://github.com/Wyind/rusty_browser.git](https://github.com/Wyind/rusty_browser.git)
+
+```git clone [https://github.com/Wyind/rusty_browser.git](https://github.com/Wyind/rusty_browser.git)
 cd rusty_browser```
 
 Build in release mode:
-Bash
-
+```
 cargo build --release
-
+```
 Run:
-Bash
-
+```
     ./target/release/rusty_browser
 ```
-Configuration
+```
+Configuration:
 
 The browser creates a configuration folder at ~/.config/rusty_browser/settings.json. You can use the Settings (⚙️) menu inside the app to toggle features like Hardware Acceleration, AdBlock, and Amnesia Mode.
 
