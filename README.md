@@ -9,7 +9,7 @@
 
 It is a power-user tool designed to blend seamlessly with KDE Plasma and GNOME while offering advanced features.
 
-## ✨ Features
+## Features
 
 * **Native Performance:** Built on `gtk4` and `webkit6` with custom rendering paths for high efficiency.
 * **Amnesia Mode:** A true incognito mode. Runs entirely in RAM. Closing the browser wipes all data instantly.
@@ -20,7 +20,7 @@ It is a power-user tool designed to blend seamlessly with KDE Plasma and GNOME w
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 Rusty Browser relies on modern system libraries. You need **GTK4** and **WebKitGTK 6.0**.
