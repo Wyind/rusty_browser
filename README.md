@@ -24,53 +24,60 @@ It is a power-user tool designed to blend seamlessly with KDE Plasma and GNOME w
 
 ### Prerequisites
 Rusty Browser relies on modern system libraries. You need **GTK4** and **WebKitGTK 6.0**.
+### Below,  you will need these prerequisites to build the project from source, but its a nice to have. If you are not building from source, download from the [Releases](https://github.com/Wyind/rusty_browser/releases) page.
 
-**Arch Linux / Manjaro / Aurora:**
-```bash
-sudo pacman -S base-devel gtk4 libadwaita webkitgtk-6.0 gst-plugins-bad gst-plugins-ugly gst-libav
-```
-Debian / Ubuntu (22.04+):
-```Bash
+| Distribution Type | Manager | Command to Install Dependencies |
+| :--- | :--- | :--- |
+| **RPM-based (Fedora/RHEL/OpenSUSE)** | `dnf` / `zypper` | `sudo dnf install gtk4-devel webkitgtk6.0-devel gstreamer1-vaapi-devel gcc-c++ cmake` |
+| **Arch-based (Arch/Manjaro)** | `pacman` | `sudo pacman -S base-devel gtk4 webkitgtk-6.0 gst-plugins-bad gst-libav` |
+| **APT-based (Debian/Ubuntu)** | `apt` | `sudo apt install build-essential libgtk-4-dev libwebkitgtk-6.0-dev libgstreamer1.0-dev` |
+---
 
-sudo apt install build-essential libgtk-4-dev libadwaita-1-dev libwebkitgtk-6.0-dev libgstreamer1.0-dev
-```
-Build from Source
+## Build from Source
 
 Clone the repository:
 
 
-```git clone [https://github.com/Wyind/rusty_browser.git](https://github.com/Wyind/rusty_browser.git)
-cd rusty_browser```
+```git clone [https://github.com/Wyind/rusty_browser.git](https://github.com/Wyind/rusty_browser.git)```
+cd rusty_browser
 
 Build in release mode:
-```
-cargo build --release
-```
+```cargo build --release```
+
 Run:
-```
-    ./target/release/rusty_browser
-```
-```
-Configuration:
+```./target/release/rusty_browser```
 
-The browser creates a configuration folder at ~/.config/rusty_browser/settings.json. You can use the Settings (⚙️) menu inside the app to toggle features like Hardware Acceleration, AdBlock, and Amnesia Mode.
+---
 
-License
+## Configuration:
+
+The browser creates a configuration folder at ```~/.config/rusty_browser/settings.json```. You can use the Settings menu inside the app to toggle features like Hardware Acceleration, AdBlock, and Amnesia Mode.
+
+---
+
+## License
 
 Distributed under the Apache License 2.0. See LICENSE for more information.
 
-Contributing
+---
+
+## Contributing
 
 Contributions are welcome!
 
-Fork the Project
+* Fork the Project
 
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
+* Create your Feature Branch 
+```(git checkout -b feature/AmazingFeature)```
 
-Commit your Changes (git commit -m 'Add some AmazingFeature')
+* Commit your Changes 
+```(git commit -m 'Add some AmazingFeature')```
 
-Push to the Branch (git push origin feature/AmazingFeature)
+* Push to the Branch 
+```(git push origin feature/AmazingFeature)```
 
-    Open a Pull Request
+Then, open a Pull Request. or just open one beforehand, i'll look through and maybe approve it.
 
-Built by [Wyind].
+---
+
+Built by [Wyind](https://www.wyind.dev/).
