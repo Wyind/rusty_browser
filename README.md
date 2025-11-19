@@ -33,6 +33,11 @@ Rusty Browser relies on modern system libraries. You need **GTK4** and **WebKitG
 | **APT-based (Debian/Ubuntu)** | `apt` | `sudo apt install build-essential libgtk-4-dev libwebkitgtk-6.0-dev libgstreamer1.0-dev` |
 ---
 
+Then, run the ```install.sh``` script by doing 
+
+```chmod +x install.sh```
+```./install.sh```
+
 ## Build from Source
 
 Clone the repository:
